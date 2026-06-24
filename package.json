@@ -1,0 +1,24 @@
+{
+  "name": "vibebase-client",
+  "version": "0.1.0",
+  "description": "Client for a Vibebase backend — Postgres, auth, file storage, vector search, change-feed, migrations.",
+  "type": "module",
+  "main": "index.mjs",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs"
+    }
+  },
+  "files": ["index.mjs", "index.d.ts", "README.md"],
+  "keywords": ["vibebase", "postgres", "auth", "backend", "vector", "baas"],
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "homepage": "https://vibebase.io",
+  "license": "MIT"
+}
