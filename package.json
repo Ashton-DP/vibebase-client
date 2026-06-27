@@ -1,6 +1,6 @@
 {
   "name": "vibebase-client",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Client for a Vibebase backend — Postgres, auth, file storage, vector search, change-feed, migrations.",
   "type": "module",
   "main": "index.mjs",
